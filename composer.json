@@ -1,18 +1,18 @@
 {
-    "name": "binaryoung/ucenter",
+    "name": "renzhic/ucenter",
     "description": "ucenter client for laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": "young",
-            "email": "admin@binaryoung.com",
-            "homepage": "http://binaryoung.com",
+            "name": "olk",
+            "email": "renzhic@163.com",
+            "homepage": "",
             "role": "Developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Binaryoung\\Ucenter\\": "src/"
+            "Renzhic\\Ucenter\\": "src/"
         }
     },
     "require": {
