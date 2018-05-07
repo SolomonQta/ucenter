@@ -1,5 +1,5 @@
 {
-    "name": "SolomonQta/ucenter",
+    "name": "solomonqta/ucenter",
     "description": "ucenter client for laravel",
     "license": "MIT",
     "authors": [
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "SolomonQta\\Ucenter\\": "src/"
+            "solomonqta\\Ucenter\\": "src/"
         }
     },
     "require": {
