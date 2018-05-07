@@ -1,4 +1,4 @@
-<?php namespace Binaryoung\Ucenter;
+<?php namespace Solomonqta\Ucenter;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -32,6 +32,6 @@ class UcenterServiceProvider extends ServiceProvider
             return new Ucenter;
         });
 
-        $this->app->bind('Binaryoung\Ucenter\Contracts\Api', config('ucenter.service'));
+        $this->app->bind('Solomonqta\Ucenter\Contracts\Api', config('ucenter.service'));
     }
 }

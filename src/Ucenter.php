@@ -1,4 +1,4 @@
-<?php namespace Binaryoung\Ucenter;
+<?php namespace Solomonqta\Ucenter;
 
 use Config;
 

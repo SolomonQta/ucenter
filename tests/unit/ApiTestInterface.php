@@ -1,8 +1,8 @@
 <?php
 
-use Binaryoung\Ucenter\Services\Help;
+use Solomonqta\Ucenter\Services\Help;
 
-class TestApiInterface implements \Binaryoung\Ucenter\Contracts\Api
+class TestApiInterface implements \Solomonqta\Ucenter\Contracts\Api
 {
     use Help;
 

@@ -1,4 +1,4 @@
-<?php namespace Binaryoung\Ucenter\Services;
+<?php namespace Solomonqta\Ucenter\Services;
 
 trait Help{
 

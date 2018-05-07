@@ -1,8 +1,8 @@
-<?php namespace Binaryoung\Ucenter\Services;
+<?php namespace Solomonqta\Ucenter\Services;
 
-use Binaryoung\Ucenter\Services\Help;
+use Solomonqta\Ucenter\Services\Help;
 
-class Api implements \Binaryoung\Ucenter\Contracts\Api
+class Api implements \Solomonqta\Ucenter\Contracts\Api
 {
     use Help;
 

@@ -1,9 +1,9 @@
-<?php namespace Binaryoung\Ucenter\Controllers;
+<?php namespace Solomonqta\Ucenter\Controllers;
 
 use App\Http\Controllers\Controller;
-use Binaryoung\Ucenter\Contracts\Api;
+use Solomonqta\Ucenter\Contracts\Api;
 use Request,Config;
-use Binaryoung\Ucenter\Services\Help;
+use Solomonqta\Ucenter\Services\Help;
 
 class ApiController extends Controller 
 {

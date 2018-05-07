@@ -1,7 +1,7 @@
 <?php
 
 use Mockery as m;
-use Binaryoung\Ucenter\Services\Help;
+use Solomonqta\Ucenter\Services\Help;
 
 class ApiTest extends \Codeception\TestCase\Test
 {
@@ -34,7 +34,7 @@ class ApiTest extends \Codeception\TestCase\Test
         $this->config = m::mock('alias:Config');
         $this->config->shouldReceive('get')->with('ucenter.key')->andReturn('8b01LtwuRJw2NmcjA77MjFLKPQ7XmpRjTMcosGI');
         
-        $this->apiController = new Binaryoung\Ucenter\Controllers\ApiController;
+        $this->apiController = new Solomonqta\Ucenter\Controllers\ApiController;
         $this->api = new TestApiInterface;
 
     }
@@ -91,7 +91,7 @@ class ApiTest extends \Codeception\TestCase\Test
         $code = self::encode($action, $arguments);
         $this->request->shouldReceive('input')->with('code')->times(1)->andReturn($code);
 
-        //$api = m::mock('stdClass, Binaryoung\Ucenter\Contracts\Api')->shouldReceive('gettag')->times(1)->andReturn(self::serialize(['action' => $action], 1));
+        //$api = m::mock('stdClass, Solomonqta\Ucenter\Contracts\Api')->shouldReceive('gettag')->times(1)->andReturn(self::serialize(['action' => $action], 1));
 
         $response = $this->apiController->run($this->api);
 

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Binaryoung\Ucenter\Facades;
+namespace Solomonqta\Ucenter\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

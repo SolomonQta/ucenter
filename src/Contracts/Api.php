@@ -1,4 +1,4 @@
-<?php namespace Binaryoung\Ucenter\Contracts;
+<?php namespace Solomonqta\Ucenter\Contracts;
 
 interface Api
 {

@@ -47,7 +47,7 @@ class UcenterTest extends \Codeception\TestCase\Test
         $this->config->shouldReceive('get')->with('ucenter')->andReturn($config);
 
         //$this->ucenter = m::mock('alias:Ucenter');
-        $this->ucenter = new Binaryoung\Ucenter\Ucenter;
+        $this->ucenter = new Solomonqta\Ucenter\Ucenter;
 
         $this->faker = Faker\Factory::create();
     }

@@ -17,5 +17,5 @@ return [
     'appid'          => env('UC_APPID', '1'),
     'ppp'            => env('UC_PPP', '20'),
     'apifilename'    => env('UC_APIFILENAME', 'uc.php'),
-    'service'        => env('UC_SERVICE', 'Binaryoung\Ucenter\Services\Api'),
+    'service'        => env('UC_SERVICE', 'Solomonqta\Ucenter\Services\Api'),
 ];
